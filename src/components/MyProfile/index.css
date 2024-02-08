@@ -1,0 +1,120 @@
+.p-card {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+.profile-card {
+  background-color: #fafafa;
+  height: 90vh;
+  width: 1300px;
+  margin: 20px;
+}
+
+.posts-card {
+  display: flex;
+  list-style-type: none;
+  margin-left: -40px;
+  margin-top: -10px;
+
+  font-family: Roboto;
+}
+
+.posts-card li {
+  margin-right: 20px;
+  font: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+}
+.profile-card1 {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.rahul-card {
+  margin-left: 30px;
+}
+.image {
+  width: 140px;
+  height: 140px;
+
+  border-radius: 90px;
+}
+.head {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 32px;
+}
+.head-2 {
+  font: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  width: 113px;
+  height: 24px;
+  top: 195px;
+  left: 444px;
+}
+span {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+}
+.stories-card {
+  display: flex;
+  list-style-type: none;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+
+.line {
+  color: black;
+  width: 1040px;
+  top: 459px;
+  left: 200px;
+  border: 0.5px;
+}
+.post-box {
+  display: flex;
+  align-items: center;
+}
+.post-box img {
+  height: 25px;
+  margin-right: 15px;
+}
+.my-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.loading-card {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fail-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.fail-img img {
+  height: 200px;
+}
+.try-btn {
+  background-color: #4094ef;
+  color: #fafafa;
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .image {
+    width: 96px;
+    height: 96px;
+
+    border-radius: 48px;
+  }
+}

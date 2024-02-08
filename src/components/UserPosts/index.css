@@ -1,0 +1,88 @@
+.users-post-card {
+  border-style: solid;
+  border-color: #dbdbdb;
+  margin: 30px;
+}
+.user-post-img {
+  width: 28px;
+  height: 28px;
+  top: 16px;
+  left: 26px;
+  border-radius: 100%;
+}
+.post-profile-card img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.post-profile-card {
+  display: flex;
+  border-style: solid;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: #992373;
+}
+.post-card1 {
+  display: flex;
+  align-items: center;
+}
+.post-card1 h4 {
+  margin-left: 20px;
+}
+.image-post {
+  width: 100%;
+  height: 614px;
+  top: 59px;
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  margin: 10px 10px -5px 0px;
+}
+.lines {
+  margin: 0px 0px 0px 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+.love-btn {
+  background: none;
+  border: none;
+}
+.name {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: black;
+  text-decoration: none;
+}
+.li-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ago {
+  font-family: Roboto;
+  font-size: 14px;
+
+  color: #989898;
+}
+@media (max-width: 800px) {
+  .image-post {
+    width: 100%;
+    height: 414px;
+  }
+}

@@ -1,0 +1,129 @@
+.nav-item {
+  box-shadow: 0px 0px 1px 0px;
+  min-height: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-img-card button {
+  border: none;
+  background: none;
+}
+.navbar {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-img-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  width: 180px;
+  left: 200px;
+  margin-left: 60px;
+}
+.nav-img-card img {
+  width: 59px;
+  height: 30px;
+}
+.nav-img-card h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-card-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  margin-right: 60px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.logout {
+  width: 86px;
+  height: 32px;
+  top: 16px;
+  left: 1154px;
+  color: white;
+  font-weight: 500;
+  background-color: #4094ef;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-box {
+  width: 205px;
+  height: 28px;
+  display: flex;
+}
+.search-btn {
+  width: 35px;
+  height: 28px;
+  margin-right: 0px;
+  border-left: none;
+  text-align: center;
+  background-color: #dbdbdb;
+  border-color: #dbdbdb;
+  cursor: pointer;
+}
+.search-box input {
+  height: 28px;
+  border-right: none;
+  border-color: #dbdbdb;
+  outline: none;
+}
+.icon {
+  font-size: 15px;
+  margin-left: 0px;
+}
+.home {
+  color: #4094ef;
+}
+.nav-card-two p {
+  cursor: pointer;
+}
+
+.nav-icon-btn {
+  display: none;
+  margin-right: 60px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+}
+
+.nav-bar {
+  box-shadow: 0px 0px 1px 0px;
+
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.style {
+  text-decoration: none;
+  color: none;
+}
+.nav-card-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+  margin-right: 60px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media (max-width: 800px) {
+  .nav-card-two {
+    display: none;
+  }
+  .nav-icon-btn {
+    display: inline;
+  }
+  .nav-img-card {
+    margin-left: 30px;
+  }
+  .nav-card-second {
+    display: flex;
+  }
+}

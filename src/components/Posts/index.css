@@ -1,0 +1,14 @@
+.post-images {
+  width: 230px;
+  height: 230px;
+}
+.p-card {
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .post-images {
+    width: 118px;
+    height: 118px;
+  }
+}
